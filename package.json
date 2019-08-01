@@ -1,0 +1,27 @@
+{
+  "name": "sinespsearchplate",
+  "version": "1.0.0",
+  "description": "simple node server to look for license plates on sinesp.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carvalhao16/SinespSearchPlate.git"
+  },
+  "author": "Carvalhão",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carvalhao16/SinespSearchPlate/issues"
+  },
+  "homepage": "https://github.com/carvalhao16/SinespSearchPlate#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sinesp-api": "^1.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
